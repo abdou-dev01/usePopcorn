@@ -132,9 +132,9 @@ function MessageError({ message }) {
   return <p className="error">{message}</p>;
 }
 
-function StartSearch() {
-  return <p className="error">Start searching for your movie 😊.</p>;
-}
+// function StartSearch() {
+//   return <p className="error">Start searching for your movie 😊.</p>;
+// }
 
 function NavBar({ query, setQuery, movies }) {
   const search = useRef(null);
